@@ -1,0 +1,31 @@
+# ── Backup files created by RetroDeck-Win scripts ──────────────────────────
+*.bak
+retrodeck-win.json.bak
+shortcuts.vdf.bak
+localconfig.vdf.bak
+
+# ── Sensitive config (contains SteamGridDB API key) ────────────────────────
+# Uncomment the line below if you want to prevent accidentally committing
+# your personal retrodeck-win.json (contains your API key and data paths).
+# retrodeck-win.json
+
+# ── Windows artifacts ───────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── macOS artifacts (if editing on Mac) ─────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Temp install downloads ───────────────────────────────────────────────────
+*.zip
+*.7z
+
+# ── VS Code / editor ─────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Test output ──────────────────────────────────────────────────────────────
+test-output/
