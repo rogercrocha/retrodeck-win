@@ -93,7 +93,7 @@ Open PowerShell and run:
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/rogercrocha/retrodeck-win/main/Install.ps1 -OutFile "$env:TEMP\rdw-install.ps1"
+(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/rogercrocha/retrodeck-win/main/Install.ps1") | Out-File "$env:TEMP\rdw-install.ps1" -Encoding UTF8
 & "$env:TEMP\rdw-install.ps1"
 ```
 
