@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+﻿#Requires -Version 5.1
 <#
 .SYNOPSIS
     RetroDeck-Win launcher — starts ES-DE and syncs Steam on exit.

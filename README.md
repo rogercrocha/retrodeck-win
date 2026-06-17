@@ -1,5 +1,13 @@
 # RetroDeck-Win
 
+> ## 🚧 Work in progress — not ready for use
+>
+> This project is under active development. The installer and per-emulator
+> configuration (starting with Dolphin) are being reworked in detail, and the
+> code is **not** in a usable state right now. Please **do not run the scripts**
+> until this notice is removed. Stars/issues welcome, but expect breaking
+> changes and force-pushes while the implementation is being finalized.
+
 **A Windows 11 adaptation of the [RetroDECK](https://github.com/retrodeck/retrodeck) concept.**
 
 RetroDeck-Win installs a complete portable emulation stack on Windows 11, maps a unified data library (ROMs, BIOS, saves, texture packs) to any location — including a NAS — and integrates the entire collection with Steam: favorites marked in ES-DE automatically appear as Steam shortcuts with box art, controller hotkeys, and Steam Input templates.
